@@ -1,0 +1,4 @@
+
+rootProject.name="order-management-service"
+
+git push ssh://<temp_user>@<host>/<repo_path> <local_branch>:<remote_branch>

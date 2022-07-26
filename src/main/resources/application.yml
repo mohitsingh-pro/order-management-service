@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: orderManagementService
+netty:
+  default:
+    allocator:
+      max-order: 3
+db:
+  name: 'order-management'
+  collection: 'orders'
+
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    username: 'postgres'
+    password: 'password'
+    schema-generate: CREATE_DROP
+jpa.default.properties.hibernate.hbm2ddl.auto: create-drop
+jpa.default.properties.hibernate.enable_lazy_load_no_trans: true
