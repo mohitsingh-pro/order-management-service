@@ -1,14 +1,6 @@
-## Micronaut 3.5.3 Documentation
+## order-management-service
 
-- [User Guide](https://docs.micronaut.io/3.5.3/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.5.3/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.5.3/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+This project is developed using the light weight [micronaut](https://docs.micronaut.io/3.5.3/guide/index.html) framework and kotlin. The build tool used is gradle.
+It exposed APIs to create, update and close an order.
 
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-
+Tests are 
